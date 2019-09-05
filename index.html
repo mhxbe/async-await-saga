@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Async Await Saga</title>
+    <script src="https://unpkg.com/@babel/standalone@7.5.5/babel.js"></script>
+    <script src="https://unpkg.com/redux@4.0.4/dist/redux.js"></script>
+    <script src="https://unpkg.com/redux-saga@1.0.5/dist/redux-saga.umd.js"></script>
+    <script src="./async-await-saga.js"></script>
+  </head>
+  <body>
+    <h1>Async Await Saga</h1>
+    <button type="button" onclick="handleGetPerson()">Get person</button>
+    <hr>
+    <ul>
+      <li>Name: <span id="name"></span></li>
+      <li>Age: <span id="age"></span></li>
+    </ul>
+    <p id="loading" style="visibility: hidden">Loading ...</p>
+  </body>
+</html>
